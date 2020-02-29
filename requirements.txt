@@ -1,0 +1,8 @@
+# pip3 install -U -r requirements.txt
+numpy
+torch >= 1.1.0
+torchvision >= 0.3.0
+Pillow
+matplotlib
+tabulate
+
