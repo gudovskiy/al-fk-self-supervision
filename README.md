@@ -1,15 +1,16 @@
 # Deep Active Learning for Biased Datasets via Fisher Kernel Self-Supervision
+[https://arxiv.org/abs/2003.00393](https://arxiv.org/abs/2003.00393)
 
 ## Abstract
 Active learning (AL) aims to minimize labeling efforts for data-demanding deep neural networks (DNNs) by selecting the most representative data points for annotation. However, currently used methods are ill-equipped to deal with biased data. The main motivation of this paper is to consider a realistic setting for pool-based semi-supervised AL, where the unlabeled collection of train data is biased. We theoretically derive an optimal acquisition function for AL in this setting. It can be formulated as distribution shift minimization between unlabeled train data and weakly-labeled validation dataset. To implement such acquisition function, we propose a low-complexity method for feature density matching using Fisher kernel (FK) self-supervision as well as several novel pseudo-label estimators. Our FK-based method outperforms state-of-the-art methods on MNIST, SVHN, and ImageNet classification while requiring only 1/10th of processing. The conducted experiments show at least 40% drop in labeling efforts for the biased class-imbalanced data compared to existing methods.
 
 ## BibTex Citation
-If you like our paper or code, please cite its CVPR2020 preprint using the following BibTex:
+If you like our [paper](https://arxiv.org/abs/2003.00393) or code, please cite its CVPR2020 preprint using the following BibTex:
 ```
 @article{gudovskiy2020al,
   title={Deep Active Learning for Biased Datasets via Fisher Kernel Self-Supervision},
   author={Gudovskiy, Denis and Hodgkinson, Alec and Yamaguchi, Takuya and Tsukizawa, Sotaro},
-  journal={arXiv:2003.?????},
+  journal={arXiv:2003.00393},
   year={2020}
 }
 ```
